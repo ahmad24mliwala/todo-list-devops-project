@@ -1,7 +1,5 @@
-# django-todo
-A simple todo app built with django
+# Automated CI/CD Pipeline for Django Web Application using AWS, Docker , Jenkins and Kubernetes.
 
-![todo App](https://raw.githubusercontent.com/shreys7/django-todo/develop/staticfiles/todoApp.png)
 ### Setup
 To get this repository, run the following command inside your git enabled terminal
 ```bash
@@ -36,3 +34,8 @@ $ python manage.py runserver
 Once the server is hosted, head over to http://127.0.0.1:8000/todos for the App.
 
 Cheers and Happy Coding :)
+
+
+## Architecture 
+
+<img width="1396" alt="image" src="https://raw.githubusercontent.com/ahmad24mliwala/images/main/To-do-list%20devops%20project%20architecture.png?raw=true">
