@@ -1,5 +1,20 @@
 # Automated CI/CD Pipeline for Django Web Application using AWS, Docker , Jenkins and Kubernetes.
 
+
+## Introduction:
+
+Building a robust and efficient CI/CD pipeline for a Django web application can be a challenging task. However, with the right tools and techniques, it can be streamlined and automated, ensuring that your web application is always up-to-date and running smoothly.
+
+In this project, I was created an automated CI/CD pipeline for a Django web application using AWS, Docker, Jenkins, and Kubernetes. I was use AWS to host the web application, Docker to containerize the application, Jenkins to automate the build and deployment process, and Kubernetes to manage the deployment of the application.
+
+The goal of this project is to automate the entire process of building, testing, and deploying a Django web application, ensuring that any changes to the application code are thoroughly tested and deployed to the production environment seamlessly.
+
+I was start by creating a Django web application and containerizing it using Docker. Next, I was configured a Jenkins server and set up a CI/CD pipeline to automate the build and deployment process. Then I was use Kubernetes to manage the deployment of the application, ensuring that it is running efficiently and effectively.
+
+By the end of this project, I have gained valuable experience in automating the build and deployment process for Django web applications and was have a better understanding of how to use AWS, Docker, Jenkins, and Kubernetes to create a robust and efficient CI/CD pipeline.
+
+
+
 ### Setup
 To get this repository, run the following command inside your git enabled terminal
 ```bash
