@@ -14,43 +14,23 @@ I was start by creating a Django web application and containerizing it using Doc
 By the end of this project, I have gained valuable experience in automating the build and deployment process for Django web applications and was have a better understanding of how to use AWS, Docker, Jenkins, and Kubernetes to create a robust and efficient CI/CD pipeline.
 
 
+## The project involves the following steps:
 
-### Setup
-To get this repository, run the following command inside your git enabled terminal
-```bash
-$ git clone https://github.com/shreys7/django-todo.git
-```
-You will need django to be installed in you computer to run this app. Head over to https://www.djangoproject.com/download/ for the download guide
+1. Set up an AWS EC2 instance: First, I was created an AWS EC2 instance to host the Django web application. I was configured the instance with the necessary software and tools, including Docker and Kubernetes.
 
-Once you have downloaded django, go to the cloned repo directory and run the following command
+2. Containerize the Django application: Then containerize the Django web application using Docker. I was created a Dockerfile that specifies the application dependencies and build the Docker image.
 
-```bash
-$ python manage.py makemigrations
-```
+3. Configure a Jenkins server: I was set up a Jenkins server and configure it to build and deploy the Docker image to the Kubernetes cluster. I was created a Jenkins pipeline that will automate the build and deployment process.
 
-This will create all the migrations file (database migrations) required to run this App.
+4. Deploy the Docker image using Kubernetes: I was use Kubernetes to manage the deployment of the Docker image. I was created Kubernetes deployment files that define the deployment specifications, including the number of replicas and container resources.
 
-Now, to apply this migrations run the following command
-```bash
-$ python manage.py migrate
-```
+5. Test the deployment: Once the deployment is complete, I was tested the application to ensure that it is functioning correctly. then verify that the website is accessible by visiting the public IP address of the EC2 instance in a web browser.
 
-One last step and then our todo App will be live. We need to create an admin user to run this App. On the terminal, type the following command and provide username, password and email for the admin user
-```bash
-$ python manage.py createsuperuser
-```
-
-That was pretty simple, right? Now let's make the App live. We just need to start the server now and then we can start using our simple todo App. Start the server by following command
-
-```bash
-$ python manage.py runserver
-```
-
-Once the server is hosted, head over to http://127.0.0.1:8000/todos for the App.
-
-Cheers and Happy Coding :)
 
 
 ## Architecture 
 
 <img width="1396" alt="image" src="https://raw.githubusercontent.com/ahmad24mliwala/images/main/To-do-list%20devops%20project%20architecture.png?raw=true">
+
+
+
